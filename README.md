@@ -1,10 +1,10 @@
 # django-docker
-Deploying django with docker compose
+Deploying django with docker compose and test database 
 
 ### Requirements
-`Django
-psycopg2
-uWSGI`
+`Python`
+`Nginx, Postgresql`
+`Django, psycopg2, uWSGI`
 
 ### System:
 `docker-compose up`

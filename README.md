@@ -1,6 +1,6 @@
 # django-docker
 
-##Deploying django with docker compose.
+## Deploying django with docker compose.
 
 Test database, Static file, Media file
 
@@ -27,7 +27,18 @@ port: 8000
 
 port: 80
 
+#### Run automatically:
+
+`python manage.py wait_for_db`
+
+`python manage.py collectstatic --noinput`
+
+`python manage.py migrate`
+
+
 ---
 
 ### Example
+
 `docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"`
+

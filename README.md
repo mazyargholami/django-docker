@@ -15,25 +15,21 @@
 
 #### Run automatically:
 
-`python manage.py wait_for_db
+`python manage.py wait_for_db`
 
-python manage.py collectstatic --noinput
+`python manage.py collectstatic --noinput`
 
-python manage.py migrate`
+`python manage.py migrate`
 
 ---
 
 ### System:
-`docker-compose up`
-
-port: 8000
+`docker-compose up` port: 8000
 
 ---
 
 ### Server:
-`docker-compose -f docker-compse-deploy.yml up`
-
-port: 80
+`docker-compose -f docker-compse-deploy.yml up` port: 80
 
 ---
 

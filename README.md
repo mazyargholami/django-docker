@@ -1,11 +1,11 @@
 # django-docker
 
-## Deploying django with docker compose. (Test database, Static file, Media file)
+### Deploying django with docker compose. (Test database, Static file, Media file)
 
 
 - Django + psycopg2 + uWSGI
 
-### Requirements in docker:
+#### Requirements in docker:
     Python
 
     Nginx, Postgresql
@@ -24,7 +24,7 @@
 
 ---
 
-### Run in system:
+#### Run in system:
 
   `port: 8000`
 
@@ -41,7 +41,7 @@
 
 ---
 
-### Example code:
+#### Example code:
 
     docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"
 

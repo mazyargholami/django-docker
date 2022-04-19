@@ -37,11 +37,10 @@
 
   `port: 80`
 
-    docker-compose -f docker-compse-deploy.yml up 
+    docker-compose -f docker-compse-deploy.yml up -d
 
 ---
 
 #### Example code:
 
     docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"
-

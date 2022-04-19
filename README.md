@@ -1,8 +1,11 @@
 # django-docker
+
 ##Deploying django with docker compose.
 
 Test database, Static file, Media file
+
 ---
+
 ### Requirements
 `Python`
 
@@ -27,4 +30,4 @@ port: 80
 ---
 
 ### Example
-`docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"
+`docker-compose -f docker-compose-deploy.yml run --rm app sh -c "python manage.py createsuperuser"`

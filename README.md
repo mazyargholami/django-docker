@@ -1,8 +1,6 @@
 # django-docker
 
-## Deploying django with docker compose.
-
-Test database, Static file, Media file
+## Deploying django with docker compose (Test database, Static file, Media file).
 
 ---
 
@@ -12,6 +10,17 @@ Test database, Static file, Media file
 `Nginx, Postgresql`
 
 `Django, psycopg2, uWSGI`
+
+---
+
+
+#### Run automatically:
+
+`python manage.py wait_for_db`
+
+`python manage.py collectstatic --noinput`
+
+`python manage.py migrate`
 
 ---
 
@@ -26,15 +35,6 @@ port: 8000
 `docker-compose -f docker-compse-deploy.yml up`
 
 port: 80
-
-#### Run automatically:
-
-`python manage.py wait_for_db`
-
-`python manage.py collectstatic --noinput`
-
-`python manage.py migrate`
-
 
 ---
 

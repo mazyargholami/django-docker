@@ -24,7 +24,7 @@
 
 ---
 
-#### Run in system:
+#### Run docker in system:
 
   `port: 8000`
 
@@ -33,7 +33,7 @@
 
 ---
 
-### Run in server:
+### Run docker in server:
 
   `port: 80`
 

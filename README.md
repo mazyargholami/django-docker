@@ -2,7 +2,6 @@
 
 ## Deploying django with docker compose (Test database, Static file, Media file).
 
----
 
 ### Requirements
 `Python`
